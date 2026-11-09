@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="koala_navy">#FF061A3A</color>
+    <color name="koala_blue">#FF1E88E5</color>
+    <color name="koala_blue_dark">#FF0D47A1</color>
+    <color name="koala_blue_light">#FF90CAF9</color>
+    <!-- OSD: azul con 70% de opacidad (0xB3 = 70%) -->
+    <color name="osd_bg">#B30D47A1</color>
+    <color name="osd_line">#66FFFFFF</color>
+    <!-- Panel de canales -->
+    <color name="panel_bg">#E6061A3A</color>
+    <color name="item_active">#661E88E5</color>
+    <color name="item_focus">#FF1E88E5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

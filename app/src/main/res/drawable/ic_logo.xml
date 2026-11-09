@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo de KoalaTV (koala). Para usar tu propio logo, reemplaza este archivo
+     o agrega res/drawable/ic_logo.png (borra este .xml si usas el PNG). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- orejas -->
+    <path android:fillColor="#90A4AE" android:pathData="M12,40 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0" />
+    <path android:fillColor="#ECEFF1" android:pathData="M19,40 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path android:fillColor="#90A4AE" android:pathData="M64,40 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0" />
+    <path android:fillColor="#ECEFF1" android:pathData="M71,40 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <!-- cara -->
+    <path android:fillColor="#B0BEC5" android:pathData="M24,58 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+    <!-- ojos -->
+    <path android:fillColor="#263238" android:pathData="M39.8,52 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0" />
+    <path android:fillColor="#263238" android:pathData="M61.8,52 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0" />
+    <!-- nariz -->
+    <path android:fillColor="#263238" android:pathData="M46,64 a8,11 0 1,0 16,0 a8,11 0 1,0 -16,0" />
+</vector>
