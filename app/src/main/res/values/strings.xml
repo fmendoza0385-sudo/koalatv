@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">KoalaTV</string>
+    <string name="app_name">TV Canales GRM</string>
+    <string name="cargar_archivo">Cargar archivo</string>
+    <string name="cargar_url">Cargar desde URL</string>
+    <string name="cargar">Cargar</string>
+    <string name="borrar_lista">Borrar lista</string>
+    <string name="confirmar_borrar">¿Borrar la lista de canales guardada?</string>
+    <string name="sin_lista">No hay lista cargada.\nUsa \"Cargar archivo\" o \"Cargar desde URL\" para agregar tu lista M3U.</string>
+    <string name="sin_canales">No se encontraron canales en la lista M3U</string>
+    <string name="lista_cargada">Lista cargada: %1$d canales</string>
+    <string name="error_lista">No se pudo cargar la lista: %1$s</string>
+    <string name="error_reproduccion">No se pudo reproducir este canal</string>
 </resources>

@@ -4,24 +4,26 @@ plugins {
 }
 
 android {
-    namespace = "com.koalatv.app"
+    namespace = "com.grm.tvcanales"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.koalatv.app"
+        applicationId = "com.grm.tvcanales"
         minSdk = 21
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "2.0"
+
+        // Reduce el tamaño de la APK: solo ARM (celulares y TV box)
+        ndk {
+            abiFilters += listOf("armeabi-v7a", "arm64-v8a")
+        }
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
@@ -32,18 +34,11 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-    lint {
-        abortOnError = false
-    }
 }
 
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
-
-    val media3 = "1.3.1"
-    implementation("androidx.media3:media3-exoplayer:$media3")
-    implementation("androidx.media3:media3-exoplayer-hls:$media3")
-    implementation("androidx.media3:media3-ui:$media3")
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    // Reproductor basado en VLC: decodifica MPEG-2, H.264, HEVC, MP2, AC3, etc. por software
+    implementation("org.videolan.android:libvlc-all:3.6.0")
 }
